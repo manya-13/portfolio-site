@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background: #121212;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow-x: hidden;
+    position: relative;
+}
+.profile-pic{
+    display: block;
+    margin: auto;
+    width: 250px;
+    border-radius: 50%;
+    filter: brightness(1.2)
+    
+}
+.main{
+    position: absolute;
+    top: 120px;
+    text-align: justify;
+    width: 850px;
+    margin-left: 200px;
+    
+}
+nav ul {
+    margin: 0;
+    list-style: none;
+    padding: 25px;
+    display: flex;
+    justify-content:space-around;
+    background: #222;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.vboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+.box {
+    height: 120px;
+    width: 850px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
